@@ -4,7 +4,7 @@ author: huimingz
 date: 2021-02-12 16:15:42 +0800
 category: [jeklly]
 tags: [jeklly]
-pin: true
+pin: false
 ---
 
 自用之前用于搭建Wordpress博客的服务器到期后，就在考虑使用[Hexo](https://hexo.io/)或者[Hugo](https://gohugo.io/)来搭建博客。经过一番考量之后，最终选择和[Jekyll](http://jekyllrb-ja.github.io/)。
