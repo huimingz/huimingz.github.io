@@ -4,7 +4,7 @@ author: huimingz
 date: 2021-02-12 13:34:10 +0800
 category: [architect]
 tags: [architect]
-pin: true
+pin: false
 ---
 
 最近读完了《领域驱动设计》，以下是个人的一些笔记和理解。

@@ -4,7 +4,7 @@ author: huimingz
 date: 2021-02-11 20:17:05 +0800
 category: [facility]
 tags: [facility]
-pin: true
+pin: false
 ---
 
 2001 年，Peter Norvig（曾任 Google 搜索质量总监，经典教材《人工智能：一种现代方法》的作者之一）在 “ Teach Yourself Programming in Ten Years” 一文中，首次讨论了计算机领域中 memory，Cache，Disk，network 等相关延时的数据（By the way，“ Teach Yourself Programming in Ten Years”这篇文章本身也是神文，20 年过去了，依旧经典）。
