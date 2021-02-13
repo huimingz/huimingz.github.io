@@ -1,5 +1,5 @@
 ---
-title: Python继承关系时的方法装饰器与调用【旧】
+title: Python继承关系时的方法装饰器与调用
 author: huimingz
 date: 2021-02-10 18:50:04 +0800
 category: [Python]

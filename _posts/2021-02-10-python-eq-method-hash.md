@@ -1,5 +1,5 @@
 ---
-title: Python类覆盖__eq__方法后的hash问题【旧】
+title: Python类覆盖__eq__方法后的hash问题
 author: huimingz
 date: 2021-02-10 18:53:05 +0800
 category: [Python]

@@ -1,5 +1,5 @@
 ---
-title: Python的type与object谁先存在【旧】
+title: Python的type与object谁先存在
 author: huimingz
 date: 2021-02-10 18:50:05 +0800
 category: [Python]

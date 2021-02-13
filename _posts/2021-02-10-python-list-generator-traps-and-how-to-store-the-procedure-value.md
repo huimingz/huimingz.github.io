@@ -1,5 +1,5 @@
 ---
-title: Python列表推导式变量存储陷阱以及如何保存过程值【旧】
+title: Python列表推导式变量存储陷阱以及如何保存过程值
 author: huimingz
 date: 2021-02-10 18:50:03 +0800
 category: [Python]
