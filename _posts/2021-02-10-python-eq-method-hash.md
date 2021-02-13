@@ -73,7 +73,7 @@ class UnhashablePoint(object):
 
 ## 结论
 
-当你为类定义一个 `__eq__`方法时，记得要实现一个 `__hash__`方法，或者设置 ``__hash__ = None`。
+当你为类定义一个 `__eq__`方法时，记得要实现一个 `__hash__`方法，或者设置 `__hash__ = None`。
 
 ## 参考
 
