@@ -9,17 +9,17 @@ pin: false
 
 2001 年，Peter Norvig（曾任 Google 搜索质量总监，经典教材《人工智能：一种现代方法》的作者之一）在 “ Teach Yourself Programming in Ten Years” 一文中，首次讨论了计算机领域中 memory，Cache，Disk，network 等相关延时的数据（By the way，“ Teach Yourself Programming in Ten Years”这篇文章本身也是神文，20 年过去了，依旧经典）。
 
-![](/assets/img/posts/Xnip2021-02-12_13-10-23.png)
+![](/assets/img/posts/2021/02-12_13-10-23.png)
 
 而让这些数字再次受关注的，是 Google 的另一位大神。2010 年，Jeff  Dean 在斯坦福做了一次精彩的演讲：“Building Software Systems at Google and Lessons Learned”，其中又讨论了这些计算机领域的 latency 。毕竟，要做出优秀的架构，反而需要更加关注那些基础的领域知识。
 
-![](/assets/img/posts/Xnip2021-02-11_20-36-36.png)
+![](/assets/img/posts/2021/02-11_20-36-36.png)
 
 随后，一名 UC Berkeley 的学生将这些计算机系统中的 latency time 做了一个可交互的网页，得出这些指标的计算公式也写在网页的源码里（[https://colin-scott.github.io/personal_website/research/interactive_latency.html](https://colin-scott.github.io/personal_website/research/interactive_latency.html)）。
 
 拖动标记年份的滚动条,  我们可以很直观地看到，不同年份下，CPU cache，main memory，network 这些技术发展对系统延迟时间的影响。
 
-![Xnip2021-02-12_13-12-11](/assets/img/posts/Xnip2021-02-12_13-12-11.png)
+![Xnip2021-02-12_13-12-11](/assets/img/posts/2021/02-12_13-12-11.png)
 
 下面是 2020 年的数据：
 

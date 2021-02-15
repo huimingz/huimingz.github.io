@@ -35,7 +35,7 @@ pin: false
 
 先进后出原则，可以看作是一个“栈”的结构关系。
 
-![流程图](/assets/img/posts/2021-02-13-golang-defer-sequence.png)
+![流程图](/assets/img/posts/2021/02-13-golang-defer-sequence.png)
 
 
 
@@ -128,7 +128,7 @@ func main() {
 输出:
 
 ```
-$ go run main_a.go 
+$ go run main_a.go
 a defer: i = 101
 a return: 100
 b defer: i = 101
