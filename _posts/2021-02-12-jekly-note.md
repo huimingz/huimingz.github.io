@@ -1,5 +1,5 @@
 ---
-title: Jekyll博客的搭建流程记录
+title: Jekyll笔记
 author: huimingz
 date: 2021-02-12 16:15:42 +0800
 category: [jeklly]
