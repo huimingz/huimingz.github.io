@@ -58,15 +58,15 @@ Clean Architecture 是Robert C. Martin(uncle Bob)在2012年提出的结构设计
 
 五大原则：
 1. SRP: Single Responsibility Principle（单一职责原则）
-2. OCP: The Open-Closed Principle（开放-闭合原则）
-3. LSP: The Liskov Substitution Principle（Liskvo替代原则）
+2. OCP: The Open-Closed Principle（开放-封闭原则）
+3. LSP: The Liskov Substitution Principle（里氏替代原则）
 4. ISP: The Interface Segregation Principle（接口隔离原则）
 5. DIP: The Dependency Inversion Principle（依赖性反转原则）
 
 ### Single Respinsibility Principle（单一职责原则）
 一个系统的最佳结构是在很大程度上受到使用它的组织社会所影响的，所以 **每一个软件模块有且只能有一个改变它的理由**。
 
-### The Open-Close Principle（开放-闭合原则）
+### The Open-Close Principle（开放-封闭原则）
 要使系统易于改变，就必须在设计上允许通过追加新的代码来改变这些系统的行为，而不是改变现有的代码。
 
 对拓展开放，对修改保守。在支持新功能时，可以很好的利用拓展来进行实现，而不需要修改代码。
@@ -75,7 +75,7 @@ Clean Architecture 是Robert C. Martin(uncle Bob)在2012年提出的结构设计
 >
 > OCP是系统架构的驱动力之一。其目标是使系统易于扩展，而不产生较大的变化影响。实现这一目标的方法是将系统分割成若干组件，并将这些组件安排成一个依赖层次，以保护较高级别的组件不受较低级别的组件变化的影响。
 
-### The Liskov Substitution Principle（Liskov替代原则）
+### The Liskov Substitution Principle（里氏代换原则）
 要想从可互换的部件中构建软件系统，这些部件必须遵守一个契约，允许这些部件被一个个替换掉。
 
 LSP应该被拓展到架构的层面上。一个简单的违反可替代性的行为，就会导致系统的架构受到大量额外机制的污染（造成开发和维护负担等）。
@@ -93,6 +93,26 @@ LSP应该被拓展到架构的层面上。一个简单的违反可替代性的�
 4. 实现应该依赖于抽象。
 
 ![](https://hmz-storage.oss-cn-shenzhen.aliyuncs.com/static/img/2021/02-16-Xnip2021-02-16_16-35-53.png)
+
+## Components
+
+### Component Cohesion（组合的内聚）
+三个原则：
+1. REP: The Reuse/Release Equivalence Principle（复用/发布等效原则）
+2. CCP: The Common Closure Principle（共同封闭原则）
+3. CRP: The Common Reuse Principle（共同重用原则）
+
+#### REP（复用/发布等效原则）
+
+#### CCP（共同封闭原则）
+建议将所有类中可能由于相同原因而发生改变的都聚集到同一个地方。当两个类关系紧密，如论是物理上还是概念上总是一起发生变化，那么它们就应当属于同一个组建。这样可以最大限度地减少与软件的发布、重新验证和重新部署相关的工作量。
+
+这一原则与开放-封闭原则（OCP）密切相关。事实上，CCP所需要解决的正是OCP意义上的“封闭”。OCP指出，类应该为修改而封闭，但为扩展而开放。因为100%的封闭是不可能实现的，所以封闭必须是战略性的。我们在设计我们的类时，要使它们对我们预期的或经历过的最常见的变化是封闭的。
+
+CCP是SRP的组件形式。SRP告诉我们，如果方法因为不同的原因发生变化，我们要把方法分成不同的类。CCP告诉我们，如果类因为不同的原因发生变化，要把类分成不同的组件。这两个原则可以用下面的口诀来概括。
+> 把那些在相同时间和相同原因下发生变化的事物聚集在一起。把那些在不同时间或不同原因发生变化的事物分开。
+
+#### CRP（共同重用原则）
 
 ## 参考
 1. [《Clean Architecture》](https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164)
