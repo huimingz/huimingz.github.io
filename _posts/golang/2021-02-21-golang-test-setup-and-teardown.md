@@ -1,11 +1,10 @@
 ---
-title: Golang在test中如何使用setUp和tearDown
+title: Golang test中如何使用setUp和tearDown
 author: huimingz
-date: 2021-02-20 21:20:00 +0800
+date: 2021-02-21 09:58:00 +0800
 category: [Golang]
 tags: [Golang]
 pin: false
-future: true
 ---
 
 在进行单元测试时，我们有些时候需要在执行前和执行后做一些工作，比如准备测试数据，测试结束后的测试数据清理。
