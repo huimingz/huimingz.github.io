@@ -30,6 +30,13 @@ GitHub 官方出品，将你过去一年的提交统计转成一个三维的直�
 蚂蚁集团数据可视化工具 AntV 旗下的图编辑引擎，用来在网页上生成 SVG 图形。
 ![](https://hmz-storage.oss-cn-shenzhen.aliyuncs.com/static/img/2021/03-07-LwTBv8.jpg)
 
+### locust
+[https://locust.io/](https://locust.io/)
+
+一个开源的负载压测工具。
+
+![](https://hmz-storage.oss-cn-shenzhen.aliyuncs.com/static/img/2021/03-07-vBiS8R.jpg)
+
 ## 运维
 
 ### Cockpit
@@ -60,6 +67,16 @@ Linux 服务器的 Web 控制台。
 
 一个 Go 语言的库，用来通过各种渠道向用户发通知，支持 Discord、Email、Microsoft Teams、Slack、Telegram 等。
 
+### go-zero
+[https://github.com/tal-tech/go-zero](https://github.com/tal-tech/go-zero)
+
+国内开发者写的 Go 语言 Web 和 rpc 框架，有中文文档。
+
+### email-verifier
+[https://github.com/aftership/email-verifier](https://github.com/aftership/email-verifier)
+
+Go 语言写的 Email 地址检验库，判断是不是假地址。判断原理参见[这篇文章](https://segmentfault.com/a/1190000038571446)。
+
 ## Python
 ### PyG2Plot
 [https://github.com/hustcc/PyG2Plot](https://github.com/hustcc/PyG2Plot)
@@ -67,3 +84,8 @@ Linux 服务器的 Web 控制台。
 Python 的数据可视化图表生成工具，基于蚂蚁集团开源的 G2Plot 封装。
 
 ![](https://hmz-storage.oss-cn-shenzhen.aliyuncs.com/static/img/2021/03-07-o9Jd69.jpg)
+
+### Piccolo
+[https://piccolo-orm.com/](https://piccolo-orm.com/)
+
+一个简单快速的异步 Python ORM 库。
